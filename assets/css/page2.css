@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Heebo", sans-serif;
+}
+.allheader{
+    margin: 0 auto;
+    width: 90%;
+} 
+.main{
+margin: 0 auto;
+width: 70%;
+}
+.container{
+    display: flex;
+    justify-content: end;
+}
+.list-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.list-menu>li:first-child{
+    color: #FF6464;
+}
+.main>h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+.interactions>h3{
+font-weight: 500;
+font-size: 30px;
+color: #21243D;
+line-height: 44px;
+margin-bottom: 7px;
+}
+.feb-date{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+.feb-date>p:first-child{
+    border-right: 1px solid black;
+    padding-right: 35px;
+}
+.feb-date>p:last-child{
+   color: #8695A4;
+}
+.interactions>p:last-child{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.interactions{
+    border-bottom: 1px solid #E0E0E0;
+}

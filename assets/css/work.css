@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Heebo", sans-serif;
+}
+.allheader {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.list-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.list-menu>li:nth-child(2) {
+    color: #FF6464;
+}
+
+.main>h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.div1,
+.div2,
+.div3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #E0E0E0;
+    padding: 10px 0;
+}
+
+.div1 .dashboard1>h2 {
+    color: #21243D;
+}
+.div1:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.div1:hover .dashboard1>h2{
+    color: red;
+}
+.datebutton1,
+.datebutton2,
+.datebutton3 {
+    display: flex;
+    gap: 30px;
+    text-transform: capitalize;
+}
+
+.datebutton1>p:first-child,
+.datebutton2>p:first-child,
+.datebutton3>p:first-child {
+    background-color: #142850;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.datebutton1>p:last-child,
+.datebutton2>p:last-child,
+.datebutton3>p:last-child {
+    color: #8695A4;
+}
+
+.baseline {
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    padding: 20px 0;
+    align-content: center;
+}
+
+.socials,
+.rights {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.list-menu .list-item>:visited{
+    color: green;
+}
+.list-menu .list-item>a:hover{
+    color: blue;
+}
